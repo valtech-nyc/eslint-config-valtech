@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-valtech",
+  "version": "1.0.0",
+  "description": "Valtech ESLint configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/valtechny/eslint-config-valtech.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "James DiGioia <jamesorodig@gmail.com> (http://jamesdigioia.com)",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/valtechny/eslint-config-valtech#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0"
+  }
+}
