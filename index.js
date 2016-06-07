@@ -21,6 +21,7 @@ module.exports = {
             'beforeColon': false,
             'afterColon': true
         }],
+        'object-curly-spacing': [2, 'always'],
         'space-unary-ops': [2, {
             'words': false,
             'nonwords': false
