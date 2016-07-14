@@ -80,7 +80,10 @@ module.exports = {
             }
         }],
         'lines-around-comment': [2, {
-            'beforeLineComment': true,
+            'beforeBlockComment': true,
+            'afterBlockComment': false,
+            'beforeLineComment': false,
+            'afterLineComment': false,
             'allowBlockStart': true
         }],
         'semi': [2, 'always'],
