@@ -14,7 +14,7 @@
     "eslint"
   ],
   "author": "Valtech US (http://valtech.com)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "homepage": "https://bitbucket.org/valtechny/eslint-config-valtech#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
