@@ -88,7 +88,7 @@ module.exports = {
         }],
         'semi': [2, 'always'],
         'consistent-this': [2, 'self'],
-        'quotes': [2, 'single'],
+        'quotes': [2, 'single', { 'avoidEscape': true }],
         'indent': [2, 4, {
             'SwitchCase': 1
         }],
