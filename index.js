@@ -1,7 +1,7 @@
 module.exports = {
     'plugins': [
         'jsdoc'
-    ]
+    ],
     'rules': {
         'curly': [2, 'all'],
         'eqeqeq': 2,
