@@ -1,4 +1,7 @@
 module.exports = {
+    'plugins': [
+        'jsdoc'
+    ]
     'rules': {
         'curly': [2, 'all'],
         'eqeqeq': 2,
@@ -100,6 +103,7 @@ module.exports = {
                 'return': 'returns'
             },
             'requireReturn': false
-        }]
+        }],
+        'jsdoc/require-hyphen-before-param-description': 1
     }
 };
