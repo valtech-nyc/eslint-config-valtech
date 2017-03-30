@@ -87,7 +87,9 @@ module.exports = {
             'afterBlockComment': false,
             'beforeLineComment': false,
             'afterLineComment': false,
-            'allowBlockStart': true
+            'allowBlockStart': true,
+            'allowObjectStart': true,
+            'allowArrayStart': true
         }],
         'semi': [2, 'always'],
         'consistent-this': [2, 'self'],
