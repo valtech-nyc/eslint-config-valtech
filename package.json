@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-valtech",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Valtech ESLint configuration.",
   "main": "index.js",
   "scripts": {
