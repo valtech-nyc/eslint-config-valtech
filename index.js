@@ -17,6 +17,8 @@ module.exports = {
             'destructuring': 'all'
         }],
         'no-var': 2,
+        'no-console': 1,
+        'no-alert': 2,
         'linebreak-style': [2, 'unix'],
         'comma-style': [2, 'last'],
         'dot-notation': 2,
