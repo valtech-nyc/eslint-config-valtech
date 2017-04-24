@@ -13,7 +13,9 @@ module.exports = {
         'no-irregular-whitespace': 2,
         'no-undef': 2,
         'no-unused-vars': 2,
-        'prefer-const': 2,
+        'prefer-const': [2, {
+            'destructuring': 'all'
+        }],
         'no-var': 2,
         'linebreak-style': [2, 'unix'],
         'comma-style': [2, 'last'],
