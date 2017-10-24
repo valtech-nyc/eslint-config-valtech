@@ -4,7 +4,7 @@ module.exports = {
     ],
     'rules': {
         'curly': [2, 'all'],
-        'eqeqeq': 2,
+        'eqeqeq': [2, 'smart'],
         'wrap-iife': 2,
         'no-use-before-define': [2, {
             'functions': false
