@@ -4,7 +4,7 @@
   "description": "Valtech ESLint configuration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint -c index.js --env node ./"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "homepage": "https://github.org/valtech-nyc/eslint-config-valtech#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^2.0.0"
+    "eslint": "^4.14.0"
   },
   "dependencies": {
-    "eslint-plugin-jsdoc": "^2.3.1"
+    "eslint-plugin-jsdoc": "^3.3.0",
+    "eslint-plugin-vue": "^4.0.1"
   }
 }
