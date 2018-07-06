@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "eslint-plugin-jsdoc": "^3.3.0",
-    "eslint-plugin-vue": "^4.0.1"
+    "eslint-plugin-vue": "^4.0.1",
+    "eslint-import-resolver-webpack": "^0.9.0",
+    "eslint-plugin-import": "^2.11.0"
   }
 }
