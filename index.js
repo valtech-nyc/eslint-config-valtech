@@ -31,6 +31,7 @@ module.exports = {
             'afterColon': true
         }],
         'object-curly-spacing': [2, 'always'],
+        'rest-spread-spacing': [2, 'never'],
         'space-unary-ops': [2, {
             'words': false,
             'nonwords': false
