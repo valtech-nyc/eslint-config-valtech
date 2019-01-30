@@ -36,10 +36,7 @@ module.exports = {
             'words': false,
             'nonwords': false
         }],
-        'one-var': [2, {
-            'uninitialized': 'always',
-            'initialized': 'never'
-        }],
+        'one-var': [2, 'never'],
         'no-mixed-spaces-and-tabs': 2,
         'no-trailing-spaces': 2,
         'no-with': 2,
