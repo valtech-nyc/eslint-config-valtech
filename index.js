@@ -40,6 +40,11 @@ module.exports = {
             'uninitialized': 'always',
             'initialized': 'never'
         }],
+        'space-before-function-paren': [2, {
+            'anonymous': 'never',
+            'named': 'never',
+            'asyncArrow': 'always'
+        }],
         'no-mixed-spaces-and-tabs': 2,
         'no-trailing-spaces': 2,
         'no-with': 2,
