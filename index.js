@@ -26,6 +26,15 @@ module.exports = {
         'no-spaced-func': 2,
         'array-bracket-spacing': [2, 'never'],
         'space-in-parens': [2, 'never'],
+        'spaced-line-comment': [2, 'always', {
+            'exceptions': [
+                "-",
+                "+",
+                "=",
+                "/",
+                "*",
+            ],
+        }],
         'key-spacing': [2, {
             'beforeColon': false,
             'afterColon': true
